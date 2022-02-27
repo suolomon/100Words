@@ -1,11 +1,12 @@
+import Navbar from "./components/Navbar/Navbar"
 
 
 function App() {
 
   return (
-    <div >
-     <h1>100words!</h1>
-    </div>
+    < >
+     <Navbar />
+    </>
   )
 }
 
