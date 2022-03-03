@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar/Navbar"
 import Home from "./pages/Home/Home"
+import SinglePost from "./pages/SinglePostPage/SinglePostPage"
 
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
   return (
     <>
      <Navbar />
-     <Home/>
+     {/* <Home/> */}
+     <SinglePost/>
     </>
   )
 }
