@@ -1,11 +1,15 @@
 import Header from "../../components/Header/Header"
+import Sidebar from "../../components/Sidebar/Sidebar"
 import "./Home.css"
 
 const Home = () => {
   return (
-    <div className="home">
+    <>
         <Header/>
+    <div className="home">
+      <Sidebar/>
     </div>
+    </>
   )
 }
 
