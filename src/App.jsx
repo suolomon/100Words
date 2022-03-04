@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar/Navbar"
 import Home from "./pages/Home/Home"
+import Settings from "./pages/Settings/Settings"
 import SinglePost from "./pages/SinglePostPage/SinglePostPage"
 import Write from "./pages/Write/Write"
 
@@ -11,7 +12,8 @@ function App() {
      <Navbar />
      {/* <Home/> */}
      {/* <SinglePost/> */}
-     <Write/>
+     {/* <Write/> */}
+     <Settings/>
     </>
   )
 }
