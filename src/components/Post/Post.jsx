@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Post.css'
 
 const Post = () => {
@@ -10,7 +11,7 @@ const Post = () => {
                 <span className="postCat">Life</span>
             </div>
             <div className="postTitle">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, id.
+                <Link to="/post/:postId" className="link">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, id.</Link>
             </div>
             <hr />
             <span className="postDate">1 hour ago</span>
