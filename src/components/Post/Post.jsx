@@ -14,7 +14,7 @@ const Post = ({ post }) => {
           ))}
         </div>
         <div className="postTitle">
-          <Link to="/post/:postId" className="link">
+          <Link to={`/post/${post._id}`} className="link">
             {post.title}
           </Link>
         </div>
